@@ -1,0 +1,10 @@
+digraph 
+  {
+    "classifiers" -> "view" [ label = "monitor"    ];
+    "classifiers" -> "symbols" [ label = "compress information into" ];
+    "manipulators" -> "symbols" [ label = "decompress" ];
+    "classifiers" -> "manipulators" [ label = "trigger"    ];
+    "view" -> "world"    [ label = "includes"   ];
+    "view" -> "hidden state" [ label = "includes"   ];
+    "manipulators" -> "view" [ label = "alter/modify" ];
+  }

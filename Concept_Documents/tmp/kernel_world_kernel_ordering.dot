@@ -1,0 +1,15 @@
+digraph 
+  {
+    "Kernel" -> "F"      [ label = "includes"   ];
+    "Kernel" -> "E"      [ label = "includes"   ];
+    "F" -> "E"           [ label = "requires"   ];
+    "Layer X-2 Actor" -> "B" [ label = "includes"   ];
+    "Layer X-2 Actor" -> "A" [ label = "includes"   ];
+    "B" -> "A"           [ label = "requries"   ];
+    "E" -> "B"           [ label = "can use"    ];
+    "E" -> "D"           [ label = "can use"    ];
+    "Layer X-1 Actor" -> "D" [ label = "includes"   ];
+    "Layer X-1 Actor" -> "C" [ label = "includes"   ];
+    "D" -> "C"           [ label = "requires"   ];
+    "C" -> "B"           [ label = "requires"   ];
+  }

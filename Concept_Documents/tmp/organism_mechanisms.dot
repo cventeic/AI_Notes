@@ -1,0 +1,5 @@
+digraph 
+  {
+    "organism" -> "self sustaining mechanism" [ label = "has"        ];
+    "organism" -> "reproducing mechanism" [ label = "has"        ];
+  }

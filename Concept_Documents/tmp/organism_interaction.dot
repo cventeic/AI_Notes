@@ -1,0 +1,6 @@
+digraph 
+  {
+    "organism" -> "world" [ label = "interacts with" ];
+    "organism" -> "offspring" [ label = "produces"   ];
+    "organism" -> "organism" [ label = "sustains"   ];
+  }

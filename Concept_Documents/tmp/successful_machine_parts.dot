@@ -1,0 +1,7 @@
+digraph 
+  {
+    "Inputs" -> "Machine" [ label = ""           ];
+    "Machine" -> "Outputs" [ label = ""           ];
+    "Machine" -> "Reproduction Machine" [ label = ""           ];
+    "Reproduction Machine" -> "Outputs" [ label = ""           ];
+  }

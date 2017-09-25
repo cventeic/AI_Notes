@@ -1,0 +1,8 @@
+digraph 
+  {
+    "s1" -> "s2"         [ label = "Cause 1"    ];
+    "s2" -> "s3"         [ label = "Cause 3"    ];
+    "s2" -> "s4"         [ label = "Cause 2"    ];
+    "s2" -> "s1"         [ label = "Cause 4"    ];
+    "cursor" -> "s2";
+  }

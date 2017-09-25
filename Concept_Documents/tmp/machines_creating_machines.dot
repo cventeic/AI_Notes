@@ -1,0 +1,16 @@
+digraph 
+  {
+    "Bolt Producing Machine" -> "Steel Bars" [ label = "inputs"     ];
+    "Bolt Producing Machine" -> "Cutting Machines" [ label = "uses"       ];
+    "Bolt Producing Machine" -> "Steel Waste" [ label = "outputs"    ];
+    "Bolt Producing Machine" -> "Bolts" [ label = "outputs"    ];
+    "Arm Producing Machine" -> "Bolts" [ label = "inputs"     ];
+    "Arm Producing Machine" -> "Nuts" [ label = "inputs"     ];
+    "Arm Producing Machine" -> "Steel Bars" [ label = "inputs"     ];
+    "Arm Producing Machine" -> "Robotic Arms" [ label = "outputs"    ];
+    "Bolt Producing Machine" -> "Machines" [ label = "are"        ];
+    "Bolts" -> "Machines" [ label = "are also"   ];
+    "Nuts" -> "Machines" [ label = "are also"   ];
+    "Steel Bars" -> "Machines" [ label = "are also"   ];
+    "Robotic Arms" -> "Machines" [ label = "are"        ];
+  }

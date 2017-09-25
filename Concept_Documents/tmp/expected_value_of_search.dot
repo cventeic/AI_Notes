@@ -1,0 +1,9 @@
+digraph 
+  {
+    "State 1" -> "State 2.1" [ label = "Resources Expended" ];
+    "State 1" -> "End State 2.2\\nw/ Fitness" [ label = "Resources Expended" ];
+    "State 2.1" -> "End State 3.1 w/ Fitness" [ label = "Resources Expended" ];
+    "State 2.1" -> "State 3.2" [ label = "Resources Expended" ];
+    "State 3.2" -> "End State 4.1 w/ Fitness" [ label = "Resources Expended" ];
+    "State 3.2" -> "End State 4.2 w/ Fitness" [ label = "Resources Expended" ];
+  }

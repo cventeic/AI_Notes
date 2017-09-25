@@ -18,3 +18,11 @@ notes stored as pdf files in the Ungrouped Scans directory.
 
 Generally the markdown documents can be rendered to pdf using the scripts
 provided in the directory.
+
+Ex:
+  bundle exec ruby render.rb AI_notes.md
+  pdflatex -halt-on-error -output-directory pdf AI_notes.md.latex
+
+
+
+

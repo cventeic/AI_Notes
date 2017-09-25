@@ -1,0 +1,5 @@
+digraph 
+  {
+    "Actor 1" -> "Container" [ label = "add to"     ];
+    "Actor 2" -> "Container" [ label = "remove from" ];
+  }

@@ -1,0 +1,6 @@
+digraph 
+  {
+    "Model Space" -> "Independent External Space 1" [ label = "Interacts With" ];
+    "Model Space" -> "Independent External Space 2" [ label = "Interacts With" ];
+    "Entities" -> "Model Space" [ label = "Replicate In\n(Until Equilibrium Reached)" ];
+  }

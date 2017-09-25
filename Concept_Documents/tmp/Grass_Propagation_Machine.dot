@@ -1,0 +1,8 @@
+digraph 
+  {
+    "Sucessfull Seed" -> "Grass" [ label = "produces"   ];
+    "Energy" -> "Sucessfull Seed" [ label = "is used by" ];
+    "Grass" -> "Sucessfull Seed" [ label = "produces"   ];
+    "Grass" -> "Unsuccesful Seed" [ label = "produces"   ];
+    "Energy" -> "Grass"  [ label = "is used by" ];
+  }

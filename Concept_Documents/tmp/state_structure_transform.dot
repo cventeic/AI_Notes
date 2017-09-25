@@ -1,0 +1,6 @@
+digraph 
+  {
+    "(A) Input State Structure" -> "(B) Output State Structure" [ label = ""           ];
+    "(C) Program" -> "(B) Output State Structure" [ label = ""           ];
+    "(D) Time, Transient Enabler Flow" -> "(B) Output State Structure" [ label = ""           ];
+  }

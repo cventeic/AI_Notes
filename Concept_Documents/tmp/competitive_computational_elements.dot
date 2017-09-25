@@ -1,0 +1,10 @@
+digraph 
+  {
+    "Competitive Computational Element 1" -> "Converged Computational Element 1" [ label = "interacts with" ];
+    "Competitive Computational Element 1" -> "Converged Computational Element 2" [ label = "interacts with" ];
+    "Competitive Computational Element 2" -> "Converged Computational Element 2" [ label = "interacts with" ];
+    "Competitive Computational Element 2" -> "Converged Computational Element 3" [ label = "interacts with" ];
+    "Converged Computational Element 1" -> "Converged Data Structure" [ label = "interacts with" ];
+    "Converged Computational Element 2" -> "Converged Data Structure" [ label = "interacts with" ];
+    "Converged Computational Element 3" -> "Converged Data Structure" [ label = "interacts with" ];
+  }

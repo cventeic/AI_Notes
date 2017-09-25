@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+gem "typogruby"
+# gem "rails"
+
+# Added at 2017-09-24 22:46:40 -0500 by chris:
+gem "prawn", "~> 2.2"
+
+# Added at 2017-09-24 22:46:54 -0500 by chris:
+gem "kramdown", "~> 1.15"

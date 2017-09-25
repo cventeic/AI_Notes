@@ -1,0 +1,9 @@
+digraph 
+  {
+    "Model Space" -> "Data Structure" [ label = "has"        ];
+    "Model Space" -> "Computational Element 1" [ label = "has"        ];
+    "Model Space" -> "Computational Element 2" [ label = "has"        ];
+    "Model Space" -> "Physical Space" [ label = "interacts with" ];
+    "Computational Element 1" -> "Computational Element 2" [ label = "acts on"    ];
+    "Computational Element 2" -> "Data Structure" [ label = "acts on"    ];
+  }

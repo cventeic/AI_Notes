@@ -1,0 +1,8 @@
+digraph 
+  {
+    "Machine M" -> "Machine A" [ label = "inputs"     ];
+    "Machine M" -> "Machine B" [ label = "inputs"     ];
+    "Machine M" -> "Machine C" [ label = "inputs"     ];
+    "Machine M" -> "Machine Q" [ label = "outputs"    ];
+    "Machine M" -> "Machine R" [ label = "outputs"    ];
+  }

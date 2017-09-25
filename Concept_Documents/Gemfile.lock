@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    kramdown (1.15.0)
+    pdf-core (0.7.0)
+    prawn (2.2.2)
+      pdf-core (~> 0.7.0)
+      ttfunk (~> 1.5)
+    rubypants (0.6.0)
+    ttfunk (1.5.1)
+    typogruby (1.0.18)
+      rubypants
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kramdown (~> 1.15)
+  prawn (~> 2.2)
+  typogruby
+
+BUNDLED WITH
+   1.15.4

@@ -2,3 +2,7 @@
 
 # misc
 *.latex
+*.aux
+*.out
+*.log
+*.toc

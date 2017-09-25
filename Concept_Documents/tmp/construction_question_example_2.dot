@@ -1,0 +1,8 @@
+digraph 
+  {
+    "C_Bar" -> "A"       [ label = "requires"   ];
+    "C_Bar" -> "B"       [ label = "requires"   ];
+    "C" -> "A"           [ label = "requires"   ];
+    "C" -> "B"           [ label = "requires"   ];
+    "C_Bar" -> "C"       [ label = "requires"   ];
+  }

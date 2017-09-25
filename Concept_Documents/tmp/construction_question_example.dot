@@ -1,0 +1,8 @@
+digraph 
+  {
+    "C_Bar" -> "C"       [ label = "machine / potential / trigger to build a" ];
+    "C" -> "A"           [ label = "requires"   ];
+    "C" -> "B"           [ label = "requires"   ];
+    "B" -> "B1"          [ label = "requires"   ];
+    "B" -> "B2"          [ label = "requires"   ];
+  }
