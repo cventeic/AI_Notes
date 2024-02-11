@@ -307,17 +307,17 @@ The figure *Cursor and Actor as Similar Constructs* shows:
 
 -Actors providing cursor type functionality to reference state in other data structures. 
 
+![Actor Model to Implement Turing Machine](images/actor_turing_machine_view_1.jpg){: width="300px" }
+
 Actors:  
 
 - Abstract and decouple interaction
 - Support specific interactions
+- Structure can be reused by multiple actors.
+- Multiple references can be made into the same subspace / structure.
+- The reference makes state local with out a copy.
+- References can be redirected to change local state.
 
-Structure can be reused by multiple actors
-Multiple references can be made into the same subspace / structure.
-The reference makes state local with out a copy.
-References can be redirected to change local state.
-
-![Actor Model to Implement Turing Machine](images/actor_turing_machine_view_1.jpg){: width="300px" }
 
 ![Actor Model to Implement Turing Machine Detailed](images/actor_turing_machine_view_2.jpg){: width="300px" }
 
@@ -2336,6 +2336,117 @@ See figure *General Purpose Compute*.
 
 
 
+--------
+
+## Actor Observer Mechanism
+
+![Actor Observer 2 Structures](./images/ActorObserver1.png){: width="300px" }
+
+- More than one actor in structure/node.
+- Actor can observe, modify or move.
+
+
+![Actor Observer Multiple Structures](./images/ActorObserver2.png){: width="300px" }
+
+- Each room is a reusable linear data structure with 0 or 1 in each slot.
+- Data structures and fixed elements in rooms are reusable by many actors and states.
+- Some patterns re-use the data structure in a new domain (ex. triangle.)
+- Some actors move and other actors are fixed.
+- One pair per global bit.
+
+--------
+
+## Building Blocks
+
+![Building Blocks ](./images/BuildingBlocks0.png){: width="300px" }
+
+Goal: Builder O duplicates construct 1 from perspective of observer.
+
+- Process is or may be quicker if O has same blocks as I
+- Process is or may be quicker if O has same process as I
+
+Q) if I have OO variety of Blocks, how do I narrow down if I, if O ...
+
+### Page 2
+
+![Building Blocks ](./images/BuildingBlocks1.png){: width="300px" }
+
+- Building blocks are required for effective replication.
+- Building blocks must be evaluated for enough time to acquire sufficient data to test blocks.
+- Qualities of a good example:
+  - Building Blocks
+  - Replication of Blocks
+  - Appropriate parent to seed ratio
+- Process includes:
+  - A search for building blocks.
+  - A search for the right combination of building blocks
+  - Randomness (mutation) in generation of building blocks
+  - Visual Perspective on Building Block
+  - Feedback Mechanism
+  - Perception
+  - Replication
+  - Dna style encoding
+  - Seed Mechanism
+
+
+### Building Block as elements of Self Organizing Structure and Programmatic Replication
+
+With the correct building blocks programs/self organizing structures will spontaneously generate.
+
+```
+Many
+Building ----> Programs 
+Blocks
+```
+
+```
+Building Block Creation 
+
+Sufficient          Self               Programmatic
+Building    ----->  Organizing  -----> Replication
+Blocks              Structure          (seeds, dna)
+```
+
+Tags:  Modularity, Standardization of Transform, Blocks
+
+
+### Hierarchical Building Block Creation
+
+```
+Hierarchical Building Block Creation
+
+Sufficient          Self               Programmatic
+Building    ----->  Organizing  -----> Replication
+Blocks              Structure          (seeds, dna)
+                                            |
+       --------------------------------------
+       |
+       BB   ----->    SOS       -----> PR
+                                        |
+       ----------------------------------
+       |
+       BB   ----->    SOS       -----> PR
+                                        |
+       ----------------------------------
+       |
+       BB   ----->    SOS       -----> PR
+```
+
+### Culling Building Blocks
+
+Force establishment of blocks that are optimally decoupled, fundamental, and reusable.
+
+Concept 1) Iterative circular/repeating evaluation of blocks
+
+```
+          *--->*--->*--->*
+          ^              |
+          *<---*<---*<----
+```
+
+Concept 2) Some sort of quantum process like mechanism where observer forces optimal block state from constraints imposed by all (many) possible complex block interactions.
+             
+![Observer Locks Blocks ](./images/ObserverLocksBlocks.png){: width="300px" }
 
 
 
@@ -2434,5 +2545,4 @@ $$
   window.location="#";
   }
 </script>
-
 
